@@ -94,9 +94,7 @@ a {
 }
 
 
-p {
-    margin-bottom: 1.5em;
-}
+
 
 h1,
 h2,
@@ -297,8 +295,7 @@ Display Styles
 }
 
 .d-flex-align-center {
-    display: flex;
-    align-items: center;
+    display: flex;    
     flex-direction: row;
 }
 
@@ -434,9 +431,9 @@ Page Styles
     justify-content: flex-end;
 }
 
+
 .foot-contact,
-.social-icons ul,
-.copy-rights {
+.social-icons ul {
     display: flex;
     justify-content: flex-end;
 }
@@ -526,6 +523,7 @@ Page Styles
 
 .social-icons-head ul {
     display: flex;
+    margin: 30px 0px;
 }
 
 .social-icons-head ul li a {
@@ -566,6 +564,83 @@ Page Styles
     font-weight: 500;
     letter-spacing: 5px;
 }
+
+.project-experience,.education,.work-expirience,.tech-skill, .soft-skill, .languages {
+
+    font-size: 18px;
+        font-weight: 600;
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        border-bottom: 2px solid black;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        color: #222222;
+}
+
+
+
+ .project-name
+ {
+
+     font-size: 16px;
+     font-weight: 500;
+     font-family: "Roboto", sans-serif; 
+   
+      
+     color: rgba(0, 0, 0, 0.6);
+     margin-bottom: 10px;
+ }
+
+ .project-name :hover {
+    color: #000;
+    transform: scale(1.2) translateY(-5px);
+    text-decoration: underline;
+    
+}
+
+.project-details {
+    margin-bottom: 20px;
+}
+
+.work-list {
+    margin-bottom: 20px;
+
+}
+.tech-skill {
+    padding-top: 20px;
+}
+.soft-skill, .languages {
+    padding-top: 20px;
+}
+
+.fa-briefcase,.fa-university,.fa-book,.fa-building, .fa-battery-full, .fa-sign-language {
+    margin-right: 10px;
+}
+
+.fa-github {
+    color:#999999;
+}
+
+.fa-github:hover {
+    color: #000;
+    transform: scale(1.2) translateY(-5px);
+}
+
+.university, .course, .work-place {
+    color:#000;
+}
+
+.university, .work-place {
+    font-weight: 600;
+}
+
+.course {
+    margin-bottom: 10px;
+}
+.project-experience {
+    margin-top: 20px;
+}
+
 
 /* * {
     margin: 0;
